@@ -11,7 +11,9 @@
     tools:context="rtc.anucha.kamonrat.braingame.MainActivity">
 
     <TextView
+        android:text="@string/title_Main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/textView"
+        android:textSize="@dimen/h1" />
 </RelativeLayout>
